@@ -148,6 +148,8 @@ header nav ul {
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    background-color: var(--secondary-background-color);
+    border-style: groove;
 }
 .contact-me h2 {
     width: 30%;
@@ -161,6 +163,8 @@ header nav ul {
     border-style: groove;
 }
 .contact-me p {
-    margin: auto;
-    padding: 10px;
+    margin:10px;
+    padding: 20px;
+    font-weight:bold;
+    word-wrap: normal;
 }
