@@ -34,11 +34,12 @@ header {
 header h1{
     font-weight:bold;
     font-size: 40px;
-    padding: 10px;
+    padding: 10px 20px;
     color: var(--primary-text-color);
     margin: 0;
     background-color: var(--secondary-background-color);
     border-style: groove;
+    align-self: center;
 }
 header a{
     text-decoration: none;
@@ -48,16 +49,24 @@ header nav {
     margin-block: auto;
 }
 header nav ul {
+    margin:5px;
+    padding:20px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
+    background-color: var(--secondary-background-color);
+    border-style: groove;
+    align-self:center;
+    text-align: center;
  }
  header nav ul li a {
-    padding: 10px 15px;
-    font-weight:normal;
+    margin:10px;
+    padding: 20px;
+    font-weight:bold;
     font-size: 2vw;
+    word-wrap: normal;
+    text-decoration: underline;
 }
 /*End Header*/
 
