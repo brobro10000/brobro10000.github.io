@@ -124,19 +124,35 @@ header nav ul {
     background-color: var(--secondary-background-color);
     border-style: groove;
 }
+.img-border
+{
+    margin: 10px;
+    padding: 5px;
+    display:flex;
+    border:10px;
+    border-style:double;
+    border-color: var(--primary-background-color);
+}
+
+.img-border p {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    background-color: var(--secondary-background-color);
+    border-style: groove;
+    display:flex;
+    justify-content: space-evenly;
+}
+
 .work-images{
     width: 75%;
     margin:auto;
     align-content: center;
-    flex: 0 19%; 
-}
-.work-images img {
-    margin: 10px;
-    background-color: var(--tertiary-backgorund-color);
-    padding: 5px;
+    flex:0 80%;
 }
 .work-images img:hover {
-    filter: blur(5px); 
+    filter: blur(2px); 
     overflow:hidden;
 }
 /*End Work*/
