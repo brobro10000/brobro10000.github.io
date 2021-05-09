@@ -75,13 +75,12 @@ header nav ul {
 .hero {
     background-image: url("../images/coding-1024x836.jpg");
     background-size:cover;
-    background-position:stretch;
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    background-position:cover;
     background-attachment: fixed;
-    padding:100px 80px 100px 80px;
+    padding:10%;
+    display:flex;
+    justify-content:right;
+    flex-wrap: wrap;
 }
 /*End Hero*/
 
@@ -97,7 +96,6 @@ header nav ul {
     text-align: center;
     padding: 10px;
     border: 20px;
-    border-style: groove;
     border-color:var(--tertiary-backgorund-color);
     align-self: flex-start;
     background-color: var(--secondary-background-color);
@@ -137,6 +135,10 @@ header nav ul {
     background-color: var(--tertiary-backgorund-color);
     padding: 5px;
 }
+.work-images img:hover {
+    filter: blur(5px); 
+    overflow:hidden;
+}
 /*End Work*/
 
 /*contact-me*/
@@ -159,16 +161,17 @@ header nav ul {
     text-align: center;
     padding: 10px;
     border: 20px;
-    border-style: groove;
     border-color:var(--tertiary-backgorund-color);
     align-self: flex-start;
     background-color: var(--secondary-background-color);
     border-style: groove;
 }
-.contact-me p {
+.contact-me a{
     width: 60%;
     margin:10px;
     padding: 20px;
     font-weight:bold;
     word-wrap: normal;
+    text-decoration: none;
+    color:inherit;
 }
