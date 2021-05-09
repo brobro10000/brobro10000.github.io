@@ -6,7 +6,7 @@
 }
 :root {
     --primary-background-color: #89cff0;
-    --secondary-background-color: DBF1FF;
+    --secondary-background-color: #474749;
     --tertiary-backgorund-color: #70B6D6;
     --primary-text-color: #BA8B6D;
 }
@@ -26,14 +26,19 @@ header {
     display:flex;
     justify-content: space-between;
     top: 0;
+    border: 20px;
+    border-style: groove;
+    border-color:var(--tertiary-backgorund-color);
+    align-self: flex-start;
 }
 header h1{
     font-weight:bold;
     font-size: 40px;
-    padding: 5px;
+    padding: 10px;
     color: var(--primary-text-color);
     margin: 0;
     background-color: var(--secondary-background-color);
+    border-style: groove;
 }
 header a{
     text-decoration: none;
@@ -78,12 +83,15 @@ header nav ul {
     align-items: center;
 }
 .about-me h2 {
-    margin: 25px 0px 25px 25px;
-    text-align: right;
-    padding: 25px;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
     border: 20px;
     border-style: groove;
     border-color:var(--tertiary-backgorund-color);
+    align-self: flex-start;
+    background-color: var(--secondary-background-color);
+    border-style: groove;
 }
 .about-me p {
     margin:auto;
@@ -97,12 +105,15 @@ header nav ul {
     justify-content:space-evenly;
 }
 .work h2 {
-    margin: 25px 0px 25px 25px;
-    text-align: right;
-    padding: 25px;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
     border: 20px;
     border-style: groove;
     border-color:var(--tertiary-backgorund-color);
+    align-self: flex-start;
+    background-color: var(--secondary-background-color);
+    border-style: groove;
 }
 .work-images{
     margin:auto;
@@ -130,12 +141,15 @@ header nav ul {
     align-items: center;
 }
 .contact-me h2 {
-    margin: 25px 0px 25px 25px;
-    text-align: right;
-    padding: 25px;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
     border: 20px;
     border-style: groove;
     border-color:var(--tertiary-backgorund-color);
+    align-self: flex-start;
+    background-color: var(--secondary-background-color);
+    border-style: groove;
 }
 .contact-me p {
     margin: auto;
