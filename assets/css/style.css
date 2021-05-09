@@ -93,7 +93,7 @@ header nav ul {
     align-items: center;
 }
 .about-me h2 {
-    width: 30%;
+    width: 20%;
     text-align: center;
     padding: 10px;
     border: 20px;
@@ -104,7 +104,9 @@ header nav ul {
     border-style: groove;
 }
 .about-me p {
+    width: 60%;
     margin:auto;
+    word-wrap: normal;
 }
 /*End About-Me*/
 
@@ -115,17 +117,17 @@ header nav ul {
     justify-content:space-evenly;
 }
 .work h2 {
-    width: 30%;
+    width: 20%;
     text-align: center;
     padding: 10px;
     border: 20px;
-    border-style: groove;
     border-color:var(--tertiary-backgorund-color);
     align-self: flex-start;
     background-color: var(--secondary-background-color);
     border-style: groove;
 }
 .work-images{
+    width: 75%;
     margin:auto;
     align-content: center;
     flex: 0 19%; 
@@ -153,7 +155,7 @@ header nav ul {
     border-style: groove;
 }
 .contact-me h2 {
-    width: 30%;
+    width: 20%;
     text-align: center;
     padding: 10px;
     border: 20px;
@@ -164,6 +166,7 @@ header nav ul {
     border-style: groove;
 }
 .contact-me p {
+    width: 60%;
     margin:10px;
     padding: 20px;
     font-weight:bold;
