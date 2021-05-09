@@ -1,3 +1,4 @@
+/*Initial Declarations*/
 *{
     margin:0;
     padding: 0;
@@ -8,22 +9,37 @@
     --secondary-background-color: DBF1FF;
     --primary-text-color: #BA8B6D;
 }
+/*End Initial Declarations*/
+
+/*Body*/
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--primary-text-color);
-    background-color: var(--secondary-background-color);
 }
+/*End Body*/
+
+/*Header*/
 header {
     padding: 20px 35px;
     background-color: var(--primary-background-color);
     display:flex;
     justify-content: space-between;
+    top: 0;
 }
 header h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 40px;
+    padding: 5px;
+    color: var(--primary-text-color);
+    margin: 0;
+    background-color: var(--secondary-background-color);
 }
 header a{
     text-decoration: none;
+    color: var(--primary-text-color);
+}
+header nav {
+    margin-block: auto;
 }
 header nav ul {
     display: flex;
@@ -34,7 +50,21 @@ header nav ul {
  }
  header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-weight:normal;
+    font-size: 2vw;
 }
+/*End Header*/
+
+/*Hero*/
+.hero {
+    background-image: url("../images/coding-1024x836.jpg");
+    background-size:cover;
+    background-position:stretch;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    padding:100px 80px 100px 80px;
+}
+/*End Hero*/
