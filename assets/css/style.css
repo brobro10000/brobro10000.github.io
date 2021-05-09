@@ -7,6 +7,7 @@
 :root {
     --primary-background-color: #89cff0;
     --secondary-background-color: DBF1FF;
+    --tertiary-backgorund-color: #70B6D6;
     --primary-text-color: #BA8B6D;
 }
 /*End Initial Declarations*/
@@ -77,9 +78,30 @@ header nav ul {
     align-items: center;
 }
 .about-me h2 {
-    margin: 25px
+    margin: 25px 0px 25px 25px;
+    text-align: right;
 }
 .about-me p {
     margin:auto;
 }
 /*End About-Me*/
+
+/*Work*/
+.work div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.work h2 {
+    margin: 25px 0px 25px 25px;
+}
+.work-images{
+    margin:auto;
+    align-content: center;
+    flex: 0 40%; 
+}
+.work-images img {
+    margin: 3px;
+    background-color: var(--tertiary-backgorund-color);
+    padding: 5px;
+}
