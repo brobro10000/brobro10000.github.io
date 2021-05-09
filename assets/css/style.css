@@ -40,6 +40,7 @@ header h1{
     background-color: var(--secondary-background-color);
     border-style: groove;
     align-self: center;
+    font-size: 2vw;
 }
 header a{
     text-decoration: none;
@@ -63,8 +64,8 @@ header nav ul {
  header nav ul li a {
     margin:10px;
     padding: 20px;
-    font-weight:bold;
-    font-size: 2vw;
+    font-weight:normal;
+    font-size: 1.5vw;
     word-wrap: normal;
     text-decoration: underline;
 }
@@ -127,10 +128,10 @@ header nav ul {
 .work-images{
     margin:auto;
     align-content: center;
-    flex: 0 40%; 
+    flex: 0 19%; 
 }
 .work-images img {
-    margin: 3px;
+    margin: 10px;
     background-color: var(--tertiary-backgorund-color);
     padding: 5px;
 }
