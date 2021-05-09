@@ -68,3 +68,18 @@ header nav ul {
     padding:100px 80px 100px 80px;
 }
 /*End Hero*/
+
+/*About-Me*/
+.about-me div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.about-me h2 {
+    margin: 25px
+}
+.about-me p {
+    margin:auto;
+}
+/*End About-Me*/
