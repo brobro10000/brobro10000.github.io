@@ -36,6 +36,6 @@ The portfolio page is an important and effective way for sharing past projects t
 # Why it Matters?
 Having a portfolio made early in your programming career makes it simple to archive all future code for employers to review. As a web developer, its important to continually improve and refer back to past codes and projects to learn from your mistakes, and improve all your projects along the way. 
 
-Visit Horiseon-SSS for yourself [by clicking here](https://brobro10000.github.io) or follow the direct link at [https://brobro10000.github.io/](https://brobro10000.github.io/). 
+Visit my portfolio for yourself [by clicking here](https://brobro10000.github.io) or follow the direct link at [https://brobro10000.github.io/](https://brobro10000.github.io/). 
 
 ## <center>We Hope to see you there!</center> ##
