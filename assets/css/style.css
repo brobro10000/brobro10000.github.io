@@ -208,7 +208,6 @@ header nav ul {
         align-self: center;
     }
     .about-me h2 {
-        
         width: 30%;
         margin:25px;
     }
@@ -229,6 +228,12 @@ header nav ul {
         width: 100%;
         margin-left: 50px;
         padding:10px 50px;
+    }
+    header h1{
+        font-size: 5vw;
+    }
+    header nav ul li a {
+        font-size:2vw;   
     }
     .about-me div{
         padding-left: 50px;
