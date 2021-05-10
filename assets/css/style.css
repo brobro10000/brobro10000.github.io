@@ -82,6 +82,12 @@ header nav ul {
     justify-content:right;
     flex-wrap: wrap;
 }
+.hero img {
+    border-style: ridge;
+    border-color: var(--secondary-background-color);
+    width: 45%;
+    display: flex;
+}
 /*End Hero*/
 
 /*About-Me*/
@@ -202,13 +208,19 @@ header nav ul {
         align-self: center;
     }
     .about-me h2 {
-        margin:auto;
+        
+        width: 30%;
+        margin:25px;
     }
     .contact-me div{
        align-self: center;
     }
     .contact-me h2 {
         margin: auto;
+    }
+    .work h2 {
+        margin-top: 25px;
+        width: 30%;
     }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
