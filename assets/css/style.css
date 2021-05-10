@@ -146,10 +146,11 @@ header nav ul {
 }
 
 .work-images{
-    width: 75%;
+    max-width: 100;
+    height: auto;
     margin:auto;
     align-content: center;
-    flex:0 80%;
+    flex:0 70%;
 }
 .work-images img:hover {
     filter: blur(2px); 
@@ -191,3 +192,100 @@ header nav ul {
     text-decoration: none;
     color:inherit;
 }
+/*media query for smaller desktop screens and smaller*/
+@media screen and (max-width:980px) {
+    header{
+        display:inline-flex;
+        width: 100%;
+    }
+    .about-me div{
+        align-self: center;
+    }
+    .about-me h2 {
+        margin:auto;
+    }
+    .contact-me div{
+       align-self: center;
+    }
+    .contact-me h2 {
+        margin: auto;
+    }
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        margin-left: 50px;
+        padding:10px 50px;
+    }
+    .about-me div{
+        padding-left: 50px;
+        margin-bottom: 50px;
+    }
+    .about-me h2{
+        width: 50%;
+        margin: 20px 150px;
+    }
+    .hero {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .work div {
+        margin: 0 auto;
+
+    }
+    .work h2{
+        width: 50%;
+        margin:8px;
+    }
+    .work-images{
+        padding-top: 10px;
+        height: 100%;
+        width: 600px;
+    }
+    .work-images img{
+        width:100%;
+        height:95%;
+    }
+    .img-border {
+        margin:50px;
+        border-style: none;
+    }
+    .contact-me{
+        margin-top: 50px;
+    }
+    .contact-me h2{
+        width: 50%;
+    }
+}
+
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+      header{
+          margin-left: 25px;
+          
+      }
+      header h1{
+          font-size: 5vw;
+      }
+    header nav ul li a {
+        font-size:2vw;   
+    }
+    .hero {
+        width: 100%;
+        margin-left: 25px;
+    }
+    .work h2{
+        width: 30%;
+    }
+    .about-me h2{
+        width: 50%;
+        font-size: 3vw;
+        margin: 10px 110px;  
+    }
+    .contact-me h2{
+        width: 50%;
+        padding:0px 20px 0px 20px;
+    }
+  }
