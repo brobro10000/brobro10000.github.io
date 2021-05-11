@@ -6,7 +6,7 @@
 ](https://brobro10000.github.io)
 
 ## **The Landing Page for the Portfolio Hamzah Ullah**
-The portfolio page is an important and effective way for sharing past projects to future employers. Here we have met all the requirements for submission as well as a conduit for presenting out future work to potenton employers.
+The portfolio page is an important and effective way for sharing past projects to future employers. Here we have met all the requirements for submission as well as a conduit for presenting out future work to potential employers.
 
 
 - HTML properties of a navigation to easily traverse the page and access our resume for download. 
