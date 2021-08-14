@@ -81,8 +81,15 @@ header nav ul {
 .hero img {
     border-style: ridge;
     border-color: var(--secondary-background-color);
-    width: 45%;
     display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+#avatar {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
 }
 /*End Hero*/
 
